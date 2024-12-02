@@ -1,0 +1,25 @@
+/* Common */
+* {
+    box-sizing: border-box;
+}
+/* Gallery */
+.gallery {
+gap: 24px;
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+list-style: none;
+justify-content: space-between;
+padding: 0;
+}
+.gallery-item {
+    width: calc((100% - 48px) / 3);
+}
+.gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.gallery-link {
+    display: block;
+}
